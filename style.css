@@ -1,0 +1,64 @@
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid black;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
+.me{
+    position: absolute;
+    bottom: -25px;
+}
+.c2 img{
+    height: 75px;
+    width: 115px;
+}
+.c2{
+    transition:all .5s linear;
+}
+
+
+/* <------CONFIRMATION BOX-------------> */
+
+.confirm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 400px;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 1;
+    display: none;
+}
+
+.close{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #5BF0F1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#yesBtn:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+#noBtn:hover{
+    background-color: #5BF168;
+    color: #fff;
+}
